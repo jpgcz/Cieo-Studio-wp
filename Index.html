@@ -13,6 +13,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
     <link href="/Css/Style.css" rel="stylesheet" type="text/css">
     <title>Cieo Studio</title>
 
@@ -20,6 +22,29 @@
 </head>
 
 <body>
+    <input type="checkbox" id="check">
+
+    <div class="sidebar">
+        <div id="header-sidebar"></div>
+        <a href="#"><img id="img-sidebar-logo" src="Images/Logo.png"></a>
+        <br>
+        <br>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#GALLERY">WORK</a></li>
+            <li><a href="#CONTACT"><i class="fas fa-link"></i>CONTACT</a></li>
+        </ul>
+
+        <i class='fab'>&#xf39e;</i>
+        <i class='fab'>&#xf27d;</i>
+        <i class='fab'>&#xf16d;</i>
+    </div>
+
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <!--
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -36,11 +61,11 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                <!--
+                <!-
                     <li class="nav-item">
                         <a class="nav-link" href="#ABOUT">ABOUT</a>
                     </li>
-                -->
+                --
                     <li class="nav-item">
                         <a class="nav-link" href="#GALLERY">WORK</a>
                     </li>
@@ -50,7 +75,8 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> 
+-->
     <header>
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -209,7 +235,7 @@
                     <i style='font-size:24px; padding-right: 30px;' class='fab'>&#xf39e;</i>
                     <i style='font-size:24px; padding-right: 30px;' class='fab'>&#xf27d;</i>
                     <i style='font-size:24px; padding-right: 30px;' class='fab'>&#xf16d;</i>
-                    <i style='font-size:24px' class='fab'>&#xf167;</i>
+                    <!--<i style='font-size:24px' class='fab'>&#xf167;</i>-->
 
                 </div>
                 <!-- Grid column -->
