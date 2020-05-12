@@ -301,7 +301,7 @@ footer .logo-div {
   left: -30vw;
   width: 30vw;
   height: 100%;
-  background: #222429;
+  background: #191b1f;
   transition: all .5s ease;
 }
 .sidebar #header-sidebar {
@@ -309,6 +309,9 @@ footer .logo-div {
   line-height: 70px;
   text-align: center;
   user-select: none;
+}
+.sidebar ul {
+  list-style: none;
 }
 .sidebar ul a{
   display: block;
