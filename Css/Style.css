@@ -258,15 +258,34 @@ footer .footer-copyright {
   color: #0C63FE;
 }
 
-/************************************************************ SIDE NAVBAR *********************************************************/
-
-#img-sidebar-logo {
-  height: 3vw;
+#img-logo {
+  height: 4vw;
   margin-top: 3vw;
   display:block;
   margin-left: auto;
   margin-right: auto;
 }
+
+footer .logo-div {
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.iconos i {
+  font-size: 1.3vw;
+  padding-right: 1vw;
+  padding-left: 0vw;
+  padding-top: 0.2vw;
+  cursor: pointer;
+}
+
+.iconos i:hover{
+  color: #0C63FE;
+}
+
+/************************************************************ SIDE NAVBAR *********************************************************/
 
 .sidebar i {
   font-size:24px;
@@ -295,12 +314,12 @@ footer .footer-copyright {
   display: block;
   height: 100%;
   width: 100%;
-  line-height: 65px;
+  line-height: 5vw;
   color: white;
   padding-left: 2.6vw;
   box-sizing: border-box;
-  border-bottom: 1px solid black;
-  border-top: 1px solid rgba(255,255,255,.1);
+  font-size: 1.5vw;
+  
   transition: all .4s ease;
 }
 ul li:hover a{
