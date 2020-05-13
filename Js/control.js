@@ -28,3 +28,15 @@ $('a[href*="#"]').click(function(event) {
       });     
   }
 });
+
+//SIDEBAR CLOSE
+function closeNav() {
+  document.getElementById("sidebar").style.left = "-100%";
+  document.getElementById("cancel").style.left = "-100px";
+  
+}
+
+function openNav() {//width: 30vw;
+  document.getElementById("sidebar").style.width = "30vw";
+  document.getElementById("cancel").style.left = "-100px";
+}
