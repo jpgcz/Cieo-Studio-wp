@@ -30,13 +30,14 @@ $('a[href*="#"]').click(function(event) {
 });
 
 //SIDEBAR CLOSE
-function closeNav() {
-  document.getElementById("sidebar").style.left = "-100%";
-  document.getElementById("cancel").style.left = "-100px";
-  
+function openNav() {
+  document.getElementById("sidebar").style.left = "0vw";
+  document.getElementById("btn").style.left = "-15vw";
+  document.getElementById("cancel").style.left = "2vw";
 }
 
-function openNav() {//width: 30vw;
-  document.getElementById("sidebar").style.width = "30vw";
-  document.getElementById("cancel").style.left = "-100px";
+function closeNav() {
+  document.getElementById("sidebar").style.left = "-120vw";
+  document.getElementById("cancel").style.left = "-15vw";
+  document.getElementById("btn").style.left = "2vw";
 }
