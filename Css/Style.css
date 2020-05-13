@@ -328,6 +328,10 @@ footer .logo-div {
   color: #0C63FE;
 }
 
+.footer-copyright {
+  font-size: 1em;
+}
+
 @media screen and (max-width: 1000px) {
   #img-logo {
     height: 5vh;
@@ -343,6 +347,18 @@ footer .logo-div {
   }
 
   footer p {
+    font-size: 2em;
+  }
+
+  .iconos i {
+    font-size: 3em;
+  }
+
+  .links-txt {
+    padding-top: 4em;
+  }
+
+  .footer-copyright {
     font-size: 2em;
   }
 }
