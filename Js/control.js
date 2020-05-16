@@ -41,3 +41,7 @@ function closeNav() {
   document.getElementById("cancel").style.left = "-15vw";
   document.getElementById("btn").style.left = "2vw";
 }
+
+
+//ANIMATED PORTAFOLIO
+

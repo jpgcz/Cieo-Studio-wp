@@ -9,6 +9,10 @@ Tags: Cieostudio, HTML, tema, bootstrap.
 License: GNU General Public License v2.0
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   /*padding-top: 65px; */
@@ -23,7 +27,7 @@ body {
 /**********************************************************MODAL VIDEO*******************************************************************/
 
 .modal-dialog {
-  max-width: 800px;
+  max-width: 70%;
   margin: 30px auto;
 }
 
@@ -41,6 +45,21 @@ body {
   font-weight: normal;
   color:#fff;
   opacity:1;
+}
+
+@media (max-width: 1000px) {
+  .modal-dialog {
+    max-width: 80%;
+    margin: 30px auto;
+    top: 30%;
+  }
+}
+
+@media (max-height: 500px) {
+  .modal-dialog {
+    max-width: 70%;
+    margin: 30px auto;
+  }
 }
 
 /***************************************************NAVBAR********************************************/
@@ -435,7 +454,7 @@ label #btn,label #cancel{
 label #btn{
   left: 2vw;
   top: 1vw;
-  font-size: 3vh;
+  font-size: 2.2em;
   color: #0C63FE;
   padding: 6px 12px;
   transition: all .5s;
@@ -443,9 +462,9 @@ label #btn{
 
 label #cancel{
   z-index: 1111;
-  left: -2vw;
+  left: -3vw;
   top: 1vw;
-  font-size: 3vh;
+  font-size: 2.2em;
   color: #0C63FE;
   padding: 4px 9px;
   transition: all .5s ease;
@@ -523,7 +542,7 @@ label #cancel{
   label #btn{
     left: 2vw;
     top: 1vw;
-    font-size: 5vh;
+    font-size: 6em;
     color: #0C63FE;
     padding: 6px 12px;
     transition: all .5s;
@@ -532,7 +551,7 @@ label #cancel{
     z-index: 1111;
     left: -295px;
     top: 1vw;
-    font-size: 5vh;
+    font-size: 6em;
     color: #0C63FE;
     padding: 4px 9px;
     transition: all .5s ease;
@@ -544,5 +563,43 @@ label #cancel{
     display:block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-height:500px ) {
+  .sidebar ul a{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    line-height: 8vw;
+    color: #0C63FE;
+    padding-left: 0vw;
+    box-sizing: border-box;
+    font-size: 3em;
+  }
+
+  #img-logo-sidebar {
+    height: 5em;
+    margin-top: 2vh;
+  }
+
+  label #btn{
+    left: 2vw;
+    top: 1vw;
+    font-size: 3em;
+    color: #0C63FE;
+    padding: 6px 12px;
+    transition: all .5s;
+  }
+  label #cancel{
+    z-index: 1111;
+    left: -295px;
+    top: 1vw;
+    font-size: 3em;
+    color: #0C63FE;
+    padding: 4px 9px;
+    transition: all .5s ease;
   }
 }
