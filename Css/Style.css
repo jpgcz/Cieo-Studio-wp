@@ -184,11 +184,19 @@ a{
   /*padding: 0 4px;*/
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create 4four equal columns that sits next to each other */
 .column {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
+  /*padding: 0 4px;*/
+}
+
+/* Create 8 equal columns that sits next to each other */
+.column-gif {
+  -ms-flex: 12.5%; /* IE10 */
+  flex: 12.5%;
+  max-width: 12.5%;
   /*padding: 0 4px;*/
 }
 
@@ -229,6 +237,11 @@ a{
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
+  }
+  .column-gif {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
   }
 }
 
@@ -355,7 +368,7 @@ footer .logo-div {
   }
 
   .links-txt {
-    padding-top: 4em;
+    padding-top: 6em;
   }
 
   .footer-copyright {
